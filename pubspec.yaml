@@ -54,6 +54,8 @@ dependencies:
   google_sign_in: ^5.4.0
   swipe_deck: ^1.1.0 #rotalarda ikili resim
   firebase_storage: ^10.3.4
+  get: any
+  filter_list: ^1.0.2
 
 
 

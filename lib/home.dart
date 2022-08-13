@@ -6,6 +6,7 @@ import 'package:travella_01/discover_page/discover.dart';
 import 'package:travella_01/drawer_part.dart';
 import 'package:travella_01/profile_page/profil.dart';
 import 'package:travella_01/temporary_pages/route_page.dart';
+import 'package:travella_01/welcome_page/ilgi_alani_kontrol_sayfasi.dart';
 import 'google_maps/google_maps_page.dart';
 
 import 'temporary_pages/mainpage.dart';
@@ -28,11 +29,9 @@ class _AnaSayfaState extends State<AnaSayfa> {
   final screens = [
     Discover(),
     GoogleMapsPage(),
-    main_page(),
+    ilgiAlaniKontrol(),
     RoutePage(),
     ProfilPage(),
-
-
   ];
 
   var mainColor = Color.fromARGB(255, 0, 202, 157);
